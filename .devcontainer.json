@@ -1,10 +1,12 @@
 {
 	"name": "nix.university",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"context": "."
+	"image":"mcr.microsoft.com/devcontainers/base:alpine",
+	"features": {
+		"ghcr.io/devcontainers/features/nix:1": {
+		  "multiUser": true,
+		  "version": "latest"
+		}
 	},
-	"postStartCommand": "sudo chmod +x /home/vscode/.nix-profile/bin/setfacl && sudo chmod 1777 /tmp/ && sudo /home/vscode/.nix-profile/bin/setfacl  --remove-default  /tmp",
 	"customizations": {
 		"vscode": {
 			"extensions": [
