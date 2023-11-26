@@ -1,7 +1,5 @@
 {
 	"name": "nix.university",
-    "image": "nixos/nix",
-    
 	"customizations": {
 		"vscode": {
 			"extensions": [
