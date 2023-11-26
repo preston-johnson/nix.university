@@ -1,6 +1,6 @@
 {
 	"name": "nix.university",
-    "postStartCommand": "docker run -it nixos/nix",
+    "postCreateCommand": "docker run -it nixos/nix",
     
 	"customizations": {
 		"vscode": {
