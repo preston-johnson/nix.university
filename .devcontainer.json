@@ -1,5 +1,9 @@
 {
 	"name": "nix.university",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "."
+	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
