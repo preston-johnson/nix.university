@@ -1,3 +1,15 @@
 {
-    "postStartCommand": "docker run -it nixos/nix"
+	"name": "nix.university",
+    "postStartCommand": "docker run -it nixos/nix",
+    
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"julialang.language-julia",
+				"nicolasdschmidt.lunar-pink",
+				"github.copilot",
+				"github.copilot-chat"
+			]
+		}
+	}
 }
