@@ -4,6 +4,7 @@
 		"dockerfile": "Dockerfile",
 		"context": "."
 	},
+	"postStartCommand": "sudo chmod +x /home/vscode/.nix-profile/bin/setfacl && sudo chmod 1777 /tmp/ && sudo /home/vscode/.nix-profile/bin/setfacl  --remove-default  /tmp",
 	"customizations": {
 		"vscode": {
 			"extensions": [
