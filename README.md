@@ -3,9 +3,9 @@
 2. Open a Terminal ( Ctrl + Backtick ) and pick a path below.
 
 ### nix repl
-Type `nix repl`, then (optionally) type `university = import ./university.nix`
+Type `nix repl`. (Optionally, type `university = import ./university.nix`)
 
 ### nix-shell
-Type `nix-shell` to load default.nix (which includes Emacs)
+Type `nix-shell` to load shell.nix (which provides Emacs)
 
 :warning: If the above steps do not work, then please tell us!
