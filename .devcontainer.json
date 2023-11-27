@@ -10,8 +10,6 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"bbenoist.nix",
-				"julialang.language-julia",
 				"nicolasdschmidt.lunar-pink",
 				"github.copilot",
 				"github.copilot-chat"
