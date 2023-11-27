@@ -4,4 +4,4 @@
 2. Once created, open a Terminal ( Ctrl + ` ) and type "nix repl"
 3. (Optionally) type "university = include ./university.nix"
 
-If the above steps do not work, please tell us.
+If the above steps do not work, then please tell us!
