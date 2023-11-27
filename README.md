@@ -1,7 +1,11 @@
 # nix.university
-
 1. <a href="https://codespaces.new/preston-johnson/nix.university" target="_blank">Click here to start a Codespace on nix.university/main</a>
-2. Once created, open a Terminal ( Ctrl + Backtick ) and type `nix repl`
-3. (Optionally) type `university = import ./university.nix`
+2. Open a Terminal ( Ctrl + Backtick ) and pick a path below.
 
-If the above steps do not work, then please tell us!
+### nix repl
+Type `nix repl`, then (optionally) type `university = import ./university.nix`
+
+### nix-shell
+Type `nix-shell` to load default.nix (which includes Emacs)
+
+:warning: If the above steps do not work, then please tell us!
