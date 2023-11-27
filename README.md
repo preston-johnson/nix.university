@@ -8,4 +8,5 @@ Type `nix repl`. (Optionally, type `university = import ./university.nix`)
 ### nix-shell
 Type `nix-shell` to load shell.nix (which provides Emacs)
 
-:warning: If the above steps do not work, then please tell us!
+> [!IMPORTANT]
+> If the above steps do not work as expected, then please reach out!
