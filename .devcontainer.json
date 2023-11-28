@@ -10,7 +10,6 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"jnoortheen.nix-ide",
 				"nicolasdschmidt.lunar-pink",
 				"github.copilot",
 				"github.copilot-chat"
