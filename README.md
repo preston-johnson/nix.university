@@ -14,4 +14,5 @@
 
 > [!IMPORTANT]
 > If the above steps do not work as expected, then please reach out!
-> Note: including Nix language extensions in .devcontainer.json crashes the build, so they need to be installed afterward.
+
+Note: including Nix language extensions in .devcontainer.json crashes the build, so they need to be installed afterward.
