@@ -35,4 +35,4 @@ rec {
 
   # The rate function returns the interest rate of a loan.
   rate = (periods: payment: presentvalue: (1 + payment / presentvalue) ** (1 / periods) - 1);
-};
+}

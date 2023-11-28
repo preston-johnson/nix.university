@@ -11,8 +11,8 @@ rec {
     in
     "${distribution} ${entity} ${year}";
 
-    # (Alonzo) CHurch / Lambda Calculus Functions
-    church = import ./courses/lambda_calculus/lambda_calulus.nix;
+    # (Alonzo) Church / Lambda Calculus Functions
+    church = import ./courses/lambda_calculus.nix;
 
     # Lisp-like Functions
     lisp = import ./courses/lisp.nix;

@@ -47,4 +47,4 @@ rec {
 
   # The debttototalcap function returns the debt-to-total-capital ratio of a company.
   debttototalcap = debttototalcapital;
-};
+}

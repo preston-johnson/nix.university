@@ -8,4 +8,4 @@ rec {
 
   # The combination function returns the number of combinations of a list.
   combination = (xs: xs.combination);
-};
+}

@@ -14,4 +14,4 @@ rec {
 
   # The hom function returns the hom-set between two objects.
   hom = (object1: object2: object1.hom object2);
-};
+}

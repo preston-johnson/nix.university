@@ -47,4 +47,4 @@ rec {
 
   # The randomforest function returns the random forest of a time series.
   randomforest = (timeseries: timeseries.randomForest);
-};
+}

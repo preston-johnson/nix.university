@@ -17,4 +17,4 @@ rec {
 
   # The vernamdecipher function returns the Vernam decipher of a string.
   vernamdecipher = (key: string: string.vernamDecipher key);
-};
+}

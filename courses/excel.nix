@@ -53,4 +53,4 @@ rec {
 
   # The medianifs function returns the median of elements in a list that satisfy a list of predicates.
   medianifs = (ps: xs: xs.filter (x: ps.all (p: p x)).median);
-};
+}

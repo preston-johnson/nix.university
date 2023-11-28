@@ -11,4 +11,4 @@ rec {
 
   # The goldensectionsearch function returns the golden section search of a function.
   goldensectionsearch = (f: a: b: (a + b) / 2);
-};
+}

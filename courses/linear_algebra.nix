@@ -65,4 +65,4 @@ rec {
 
   # The project function returns the projection of a vector onto another vector.
   project = (vector1: vector2: vector1.project vector2);
-};
+}

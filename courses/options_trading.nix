@@ -35,4 +35,4 @@ rec {
 
   # The black function returns the price of a call option using the Black-Scholes model.
   black = (stock: strike: time: volatility: riskfree: dividend: stock.black strike time volatility riskfree dividend);
-};
+}

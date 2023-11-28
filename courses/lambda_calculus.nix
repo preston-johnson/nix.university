@@ -32,4 +32,4 @@ rec {
 
   # The Bunting function returns a pair of the result of applying its first argument to its second and its second argument.
   B2 = (f: x: y: f x y);
-};
+}

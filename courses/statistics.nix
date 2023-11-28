@@ -59,4 +59,4 @@ rec {
 
   # The lgamma function returns the log gamma function of a list of numbers.
   lgamma = (xs: xs.lgamma);
-};
+}

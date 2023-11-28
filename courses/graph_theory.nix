@@ -59,4 +59,4 @@ rec {
 
   # The density function returns the density of a graph.
   density = (graph: graph.density);
-};
+}

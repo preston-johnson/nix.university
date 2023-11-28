@@ -41,4 +41,4 @@ rec {
 
   # The counta function returns the number of non-empty rows in a table.
   counta = (table: table.filter (row: row.filter (x: x != null).length > 0).length);
-};
+}

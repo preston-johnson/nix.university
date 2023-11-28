@@ -47,4 +47,4 @@ rec {
 
   # The trix function returns the triple exponential average of a time series.
   trix = (periods: timeseries: timeseries.trix periods);
-};
+}
