@@ -9,8 +9,7 @@
 
 ### nix-shell
 - Type `nix-shell`
-- Hit [Enter]
-- (This loads shell.nix, which provides Emacs)
+- Hit [Enter] (This loads shell.nix, which provides Emacs)
 
 > [!IMPORTANT]
 > If the above steps do not work as expected, then please reach out!
